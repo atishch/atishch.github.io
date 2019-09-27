@@ -1,1 +1,26 @@
-theme: jekyll-theme-cayman
+theme: y7kim/agency-jekyll-theme
+url: https://atishch.github.io
+#baseurl: /profile
+
+# Site settings
+title: Atishdev Choudhury
+email: atish.choudhury@gmail.com
+description: "Technology Enthusiast and Tinker"
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/atishch
+  - title: linkedin
+    url: https://www.linkedin.com/in/atishchoudury/
+  - title: facebook
+    url: https://www.facebook.com/atish.choudhury
+# Postal address (add as many lines as necessary)
+address:
+  - line: Nandi Deepa Apartment , Hulimavu
+  - line: Bangalore, India 560076
+
+# Build settings
+markdown: kramdown
+permalink: pretty
