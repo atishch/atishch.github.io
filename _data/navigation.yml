@@ -1,9 +1,10 @@
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
 main:
-  - title: "Posts"
-    url: /posts/
+  - title: "Profile"
+    url: /profile/
+  - title: "Pages"
+    url: /pages/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
