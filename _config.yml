@@ -96,7 +96,7 @@ defaults:
       related: true
   # _docs
   - scope:
-      path: ""
+      path: "docs"
       type: docs
     values:
       layout: single
