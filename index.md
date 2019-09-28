@@ -13,7 +13,8 @@ header:
       url: "/assets/docs/Atishdev Choudhury Resume.pdf"
   caption: "by Atish Choudhury"
 excerpt: "Senior Application Developer by Day and Techno Blogger by Night"
-
+intro: 
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 articles_row1:
   - title: "Programming"
     excerpt: "Lean about different ***Programming Paradigm*** , ***Concepts*** and ***Best Practices***"
@@ -36,4 +37,4 @@ articles_row1:
 
 ---
 
-{% include articles_row1 %}
+{% include articles_row1 id="articles_row1" %}
