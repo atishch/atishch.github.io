@@ -1,16 +1,19 @@
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: mint
+
 # Site settings
 title: Atishdev Choudhury
 email: atish.choudhury@gmail.com
 description: "Technology Enthusiast and Tinker"
-
 twitter_username: atishch
 github_username: atishch
-minimal_mistakes_skin: mint
+
+#Features
 search: true
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+
 
 # Outputting
 permalink: /:categories/:title/
@@ -63,6 +66,12 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/atishchoudhury"
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _pages
   - scope:
@@ -70,10 +79,10 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      share: false
+      related: false
   # _posts
   - scope:
       path: "posts"
@@ -85,6 +94,19 @@ defaults:
       comments: true
       share: true
       related: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: true
+      author_profile: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "docs"
+    
   
 category_archive:
   type: liquid
