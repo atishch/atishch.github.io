@@ -4,5 +4,5 @@ breadcrumb_separator  : "/"
 main:
   - title: "Profile"
     url: /profile/
-  - title: "Articles"
-    url: /docs/
+  - title: "Handbook"
+    url: /handbook

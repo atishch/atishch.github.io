@@ -11,11 +11,12 @@ header:
       url: "/profile/"
     - label: "Download Resume"
       url: "/assets/docs/Atishdev Choudhury Resume.pdf"
+    - label: Read Handbook
+      url:  "/handbook/" 
   caption: "by Atish Choudhury"
 excerpt: "Senior Application Developer by Day and Techno Blogger by Night"
-intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-articles_row1:
+
+articles_row:
   - title: "Programming"
     excerpt: "Lean about different ***Programming Paradigm*** , ***Concepts*** and ***Best Practices***"
     overlay_color: "#000"
@@ -36,5 +37,3 @@ articles_row1:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 ---
-
-{% include articles_row1 id="articles_row1" %}

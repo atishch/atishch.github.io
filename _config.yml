@@ -23,7 +23,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - _docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -67,12 +66,6 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/atishchoudhury"
 
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-
 defaults:
   # _pages
   - scope:
@@ -95,18 +88,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _docs
-  - scope:
-      path: "docs"
-      type: docs
-    values:
-      layout: single
-      read_time: true
-      author_profile: false
-      share: true
-      comments: false
-      sidebar:
-        nav: "docs"
     
   
 category_archive:
