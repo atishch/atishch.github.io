@@ -37,10 +37,4 @@ articles_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 ---
-# Web
-## Standards
-**REST**
-**Richardson Methurity Model**
-## Documentation
-**Swagger**
-**RAML**
+# Atishdev Choudhury
