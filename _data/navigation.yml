@@ -1,8 +1,8 @@
 breadcrumbs: true
 breadcrumb_home_label : "Home"
-breadcrumb_separator  : "/"
+breadcrumb_separator  : ">>"
 main:
   - title: "Profile"
     url: /profile/
   - title: "Handbook"
-    url: /handbook
+    url: /docs
